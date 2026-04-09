@@ -1,0 +1,40 @@
+.footer {
+  background: #1a1a1a;
+  color: #999;
+  padding: 50px 30px 30px;
+  margin-top: 60px;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+.footer-col h4 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.footer-col p,
+.footer-col a {
+  color: #999;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-col a:hover {
+  color: #e31e24;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  font-size: 12px;
+}
