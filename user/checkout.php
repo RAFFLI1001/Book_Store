@@ -128,18 +128,6 @@ if (mysqli_num_rows($query_cart) == 0) {
                             <label for="bank" class="payment-label"><i class="fas fa-university"></i><span>Bank</span></label>
                         </div>
                         <div class="payment-item">
-                            <input type="radio" name="metode_bayar" id="gopay" value="GoPay" onclick="pilihBayar('qris')">
-                            <label for="gopay" class="payment-label"><i class="fas fa-wallet"></i><span>GoPay</span></label>
-                        </div>
-                        <div class="payment-item">
-                            <input type="radio" name="metode_bayar" id="dana" value="DANA" onclick="pilihBayar('qris')">
-                            <label for="dana" class="payment-label"><i class="fas fa-mobile-alt"></i><span>DANA</span></label>
-                        </div>
-                        <div class="payment-item">
-                            <input type="radio" name="metode_bayar" id="ovo" value="OVO" onclick="pilihBayar('qris')">
-                            <label for="ovo" class="payment-label"><i class="fas fa-coins"></i><span>OVO</span></label>
-                        </div>
-                        <div class="payment-item">
                             <input type="radio" name="metode_bayar" id="qris" value="QRIS" onclick="pilihBayar('qris')">
                             <label for="qris" class="payment-label"><i class="fas fa-qrcode"></i><span>QRIS</span></label>
                         </div>

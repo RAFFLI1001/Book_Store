@@ -17,10 +17,15 @@ if (isset($_POST['add_category'])) {
 
 if (isset($_GET['delete'])) {
     $id = $_GET['delete'];
-    $delete = mysqli_query($conn, "DELETE FROM kategori WHERE id_kategori = '$id'");
-    if (!$delete) {
-        echo "<script>alert('Gagal menghapus! Kategori ini masih digunakan oleh data buku.'); window.location='kategori.php';</script>";
+    $cek = mysqli_query($conn, "SELECT * FROM buku WHERE id_kategori = '$id'");
+
+    if (mysqli_num_rows($cek) > 0) {
+        echo "<script>
+            alert('Kategori tidak bisa dihapus karena masih ada buku di dalamnya!');
+            window.location='kategori.php';
+        </script>";
     } else {
+        mysqli_query($conn, "DELETE FROM kategori WHERE id_kategori = '$id'");
         header("Location: kategori.php");
     }
 }

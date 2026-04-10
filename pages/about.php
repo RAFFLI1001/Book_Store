@@ -25,7 +25,7 @@ include '../config.php';
             diantarkan langsung ke tangan Anda.</p>
     </section>
 
-    <section class="about-section">
+    <section class="about-section" >
         <h2>Siapa Kami?</h2>
         <p>
             <strong>Arten Book</strong> adalah toko buku online yang didirikan dengan semangat untuk memperluas akses
