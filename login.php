@@ -47,7 +47,7 @@ if (isset($_POST['login'])) {
 <body>
     <div class="login-container">
         <div class="login-header">
-            <h2>Selamat Datang</h2>
+            <h2>Selamat Datang Arten Book</h2>
             <p>Masuk ke akun Anda</p>
         </div>
 

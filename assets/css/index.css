@@ -86,12 +86,12 @@ body {
   transform: translateY(-50%);
   width: 5px;
   height: 25px;
-  background: #e31e24;
+  background: #ff3c3c;
   border-radius: 5px;
 }
 
 .section-header a {
-  color: #e31e24;
+  color: #e7050c;
   text-decoration: none;
   font-weight: 500;
 }
